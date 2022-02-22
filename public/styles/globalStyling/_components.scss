@@ -1,0 +1,23 @@
+// Logo
+.logo {
+  width: 10rem;
+}
+
+// Buttons
+.button-m {
+  background: $medium-slate-blue;
+  color: $white;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  cursor: pointer;
+
+  &:hover {
+    background: $medium-slate-blue3;
+    transition: 0.2s;
+  }
+
+  &:active {
+    background: $medium-slate-blue4;
+  }
+}

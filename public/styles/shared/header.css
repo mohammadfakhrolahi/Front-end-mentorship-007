@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: Roboto;
+}
+
+h1 {
+  font-size: 3.7rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+p,
+span,
+li {
+  font-size: 1.4rem;
+  letter-spacing: 0.02rem;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+div,
+nav,
+p,
+img,
+span,
+input {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+input {
+  border: 0;
+  outline: none;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  all: unset;
+}
+
+hr {
+  border: 0;
+}
+
+/* SCSS HEX */
+.logo {
+  width: 10rem;
+}
+
+.button-m {
+  background: #7854f7ff;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.button-m:hover {
+  background: #6c4cdd;
+  transition: 0.2s;
+}
+.button-m:active {
+  background: #6144ca;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 2rem 10rem;
+}
+
+.header-nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav-list__item {
+  color: #000;
+  padding: 1rem 2rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+.header-nav-list__item:hover {
+  background: #7754f728;
+  transition: 0.2s;
+}
+
+/*# sourceMappingURL=header.css.map */

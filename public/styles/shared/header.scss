@@ -1,0 +1,28 @@
+@import '../globalStyling/reset';
+@import '../globalStyling/colors';
+@import '../globalStyling/variables';
+@import '../globalStyling/components';
+
+.main-header {
+  @include flex-justify__b-items__c();
+  background: $white;
+  padding: 2rem 10rem;
+}
+
+// Header nav
+.header-nav-list {
+  @include flex-justify__b-items__c();
+}
+
+.header-nav-list__item {
+  color: $black;
+  padding: 1rem 2rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  
+  &:hover {
+    background: $medium-slate-blue2;
+    transition: 0.2s;
+  }
+}
