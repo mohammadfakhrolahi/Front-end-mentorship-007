@@ -94,36 +94,27 @@ hr {
   width: 10rem;
 }
 
-.button-m {
+.button-style {
   background: #7854f7ff;
   color: #fff;
-  padding: 1rem 1.5rem;
   border-radius: 5px;
-  font-size: 1.4rem;
   cursor: pointer;
+  font-size: 1.4rem;
 }
-.button-m:hover {
+.button-style:hover {
   background: #6c4cdd;
   transition: 0.2s;
 }
-.button-m:active {
+.button-style:active {
   background: #6144ca;
 }
 
+.button-m {
+  padding: 1rem 1.5rem;
+}
+
 .button-l {
-  background: #7854f7ff;
-  color: #fff;
   padding: 1.2rem 1.5rem;
-  border-radius: 5px;
-  font-size: 1.4rem;
-  cursor: pointer;
-}
-.button-l:hover {
-  background: #6c4cdd;
-  transition: 0.2s;
-}
-.button-l:active {
-  background: #6144ca;
 }
 
 .fa-chevron-down {

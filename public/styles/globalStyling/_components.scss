@@ -4,40 +4,29 @@
 }
 
 // Buttons
-.button-m {
+.button-style {
   background: $medium-slate-blue;
   color: $white;
-  padding: 1rem 1.5rem;
   border-radius: 5px;
-  font-size: 1.4rem;
   cursor: pointer;
+  font-size: 1.4rem;
 
   &:hover {
     background: $medium-slate-blue3;
     transition: 0.2s;
   }
-
+  
   &:active {
     background: $medium-slate-blue4;
   }
 }
 
+.button-m {
+  padding: 1rem 1.5rem;
+}
+
 .button-l {
-  background: $medium-slate-blue;
-  color: $white;
   padding: 1.2rem 1.5rem;
-  border-radius: 5px;
-  font-size: 1.4rem;
-  cursor: pointer;
-
-  &:hover {
-    background: $medium-slate-blue3;
-    transition: 0.2s;
-  }
-
-  &:active {
-    background: $medium-slate-blue4;
-  }
 }
 
 // Icons
