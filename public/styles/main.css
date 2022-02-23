@@ -110,4 +110,72 @@ hr {
   background: #6144ca;
 }
 
+.button-l {
+  background: #7854f7ff;
+  color: #fff;
+  padding: 1.2rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.button-l:hover {
+  background: #6c4cdd;
+  transition: 0.2s;
+}
+.button-l:active {
+  background: #6144ca;
+}
+
+.fa-chevron-down {
+  color: #fff;
+  margin-left: 1rem;
+}
+
+.title-1 {
+  font-size: 6rem;
+  font-weight: 500;
+}
+
+.text-2 {
+  color: #78818a;
+}
+
+.section-hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10rem;
+}
+
+#hero-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#hero-image-container {
+  width: 50%;
+}
+#hero-image-container #hero-image {
+  width: 100%;
+}
+
+.hero-title {
+  width: 80%;
+}
+
+.hero-text {
+  margin-top: 2rem;
+}
+
+#hero-btn-container {
+  margin-top: 2rem;
+}
+#hero-btn-container #hero-btn-container__text {
+  margin-left: 1rem;
+}
+
 /*# sourceMappingURL=main.css.map */

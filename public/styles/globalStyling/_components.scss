@@ -21,3 +21,40 @@
     background: $medium-slate-blue4;
   }
 }
+
+.button-l {
+  background: $medium-slate-blue;
+  color: $white;
+  padding: 1.2rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  cursor: pointer;
+
+  &:hover {
+    background: $medium-slate-blue3;
+    transition: 0.2s;
+  }
+
+  &:active {
+    background: $medium-slate-blue4;
+  }
+}
+
+// Icons
+.fa-chevron-down {
+  color: $white;
+  margin-left: 1rem;
+}
+
+// Title
+.title-1 {
+  font: {
+    size: 6rem;
+    weight: 500;
+  }
+}
+
+// Text and Paragraph
+.text-2 {
+  color: $cadet-blue-crayola;
+}

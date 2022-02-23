@@ -110,6 +110,36 @@ hr {
   background: #6144ca;
 }
 
+.button-l {
+  background: #7854f7ff;
+  color: #fff;
+  padding: 1.2rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.button-l:hover {
+  background: #6c4cdd;
+  transition: 0.2s;
+}
+.button-l:active {
+  background: #6144ca;
+}
+
+.fa-chevron-down {
+  color: #fff;
+  margin-left: 1rem;
+}
+
+.title-1 {
+  font-size: 6rem;
+  font-weight: 500;
+}
+
+.text-2 {
+  color: #78818a;
+}
+
 .main-header {
   display: flex;
   justify-content: space-between;

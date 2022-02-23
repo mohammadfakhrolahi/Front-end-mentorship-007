@@ -3,3 +3,16 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@mixin flex-justify__c-items__c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-column-justify__c-items__s {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
