@@ -39,3 +39,27 @@
     margin-left: 1rem;
   }
 }
+
+// ---- Our Process Section
+.section-our-process {
+  @include flex-justify__c-items__c();
+  background: $magnolia;
+  padding: 0 10rem;
+}
+
+.section-container {
+  width: 100%;
+  @include flex-justify__s-items__c();
+  background: $white;
+  padding: 5rem 1rem;
+}
+
+// Our Process
+.section-our-process__title {
+  width: 20rem;
+  
+  .text-color-1 {
+    margin-top: 1.5rem;
+  }
+}
+

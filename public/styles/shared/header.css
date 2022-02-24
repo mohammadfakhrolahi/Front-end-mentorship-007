@@ -122,13 +122,82 @@ hr {
   margin-left: 1rem;
 }
 
+.icon-box {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+.icon-box-bg-tomato {
+  background: #fa6444ff;
+}
+
+.icon-box-bg-celtic-blue {
+  background: #0f69c9ff;
+}
+
+.icon-box-bg-yello {
+  background: #ffbb41ff;
+}
+
+.icon-box-bg-green {
+  background: #44d4d7ff;
+}
+
 .title-1 {
   font-size: 6rem;
+  font-weight: 600;
+}
+
+.title-2 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.title-4 {
+  font-size: 2rem;
   font-weight: 500;
 }
 
-.text-2 {
+.title-4-big {
+  font-size: 1.7rem;
+}
+
+.text-1 {
+  font-size: 1.2rem;
+}
+
+.text-color-1 {
   color: #78818a;
+}
+
+.feature-card {
+  width: 21rem;
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 2.5rem;
+  margin-right: 2rem;
+  border-radius: 5px;
+  text-align: center;
+}
+.feature-card h4 {
+  margin-top: 2rem;
+}
+.feature-card p {
+  margin-top: 1.5rem;
+}
+.feature-card:hover {
+  background: #f4f4ffff;
+  box-shadow: 25px 25px 35px 15px rgba(128, 128, 128, 0.096);
+  transition: 0.2s;
 }
 
 .main-header {

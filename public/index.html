@@ -1,57 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/b20fa11caf.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./styles/main.css">
-  <link rel="stylesheet" href="./styles/shared/header.css">
-  <title>PJ Studio</title>
-</head>
-<body>
-  <header class="main-header">
-    <a href="./index.html">
-      <img src="./images/pj-logo2.png" class="logo" alt="PJ Studio">
-    </a>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" 
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./styles/main.css"/>
+    <link rel="stylesheet" href="./styles/shared/header.css"/>
+    <title>PJ Studio</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <a href="./index.html">
+        <img src="./images/pj-logo2.png" class="logo" alt="PJ Studio"/>
+      </a>
 
-    <nav class="header-nav">
-      <ul class="header-nav-list">
-        <li>
-          <a href="#" class="header-nav-list__item">Features</a>
-        </li>
-        <li>
-          <a href="#" class="header-nav-list__item">About us</a>
-        </li>
-        <li>
-          <a href="#" class="header-nav-list__item">Pricing</a>
-        </li>
-        <li>
-          <a href="#" class="header-nav-list__item">Feedback</a>
-        </li>
-      </ul>
-    </nav>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li>
+            <a href="#" class="header-nav-list__item">Features</a>
+          </li>
+          <li>
+            <a href="#" class="header-nav-list__item">About us</a>
+          </li>
+          <li>
+            <a href="#" class="header-nav-list__item">Pricing</a>
+          </li>
+          <li>
+            <a href="#" class="header-nav-list__item">Feedback</a>
+          </li>
+        </ul>
+      </nav>
 
-    <div>
-      <button id="request-demo-btn" class="button-m button-style">Request a demo</button>
-    </div>
-  </header>
-
-  <section class="section-hero">
-    <div id="hero-content">
-      <h1 class="title-1 hero-title">Web & Mobile Design Development</h1>
-
-      <p class="text-2 hero-text">Helps you to organize your income and expenses</p>
-
-      <div id="hero-btn-container">
-        <button class="button-l button-style">Try free demo<i class="fa-solid fa-chevron-down"></i></button>
-        <span class="text-2" id="hero-btn-container__text">- Web, iOS and Android</span>
+      <div>
+        <button id="request-demo-btn" class="button-m button-style">
+          Request a demo
+        </button>
       </div>
-    </div>
+    </header>
 
-    <div id="hero-image-container">
-      <img src="./images/hero.png" id="hero-image" alt="Hero image">
-    </div>
-  </section>
-</body>
+    <section class="section-hero">
+      <div id="hero-content">
+        <h1 class="title-1 hero-title">Web & Mobile Design Development</h1>
+
+        <p class="text-2 text-color-1 hero-text">Helps you to organize your income and expenses</p>
+
+        <div id="hero-btn-container">
+          <button class="button-l button-style">
+            Try free demo<i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <span class="text-2 text-color-1" id="hero-btn-container__text">- Web, iOS and Android</span>
+        </div>
+      </div>
+
+      <div id="hero-image-container">
+        <img src="./images/hero.png" id="hero-image" alt="Hero image"/>
+      </div>
+    </section>
+
+    <section class="section-our-process">
+      <div class="section-container">
+        <div class="section-our-process__title">
+          <h2 class="title-2">Our Process</h2>
+          <p class="text-color-1">Helps you to organize your income and expenses</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon-box icon-box-bg-yello">
+            <i class="fa-solid fa-book-open-reader"></i>
+          </div>
+
+          <h4 class="title-4">Daily Standup</h4>
+
+          <p class="text-1 text-color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon-box icon-box-bg-celtic-blue">
+            <i class="fa-solid fa-shield"></i>
+          </div>
+
+          <h4 class="title-4 title-4-big">Weekly Syn, Meeting</h4>
+
+          <p class="text-1 text-color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon-box icon-box-bg-tomato">
+            <i class="fa-solid fa-user-check"></i>
+          </div>
+
+          <h4 class="title-4">User Testing</h4>
+
+          <p class="text-1 text-color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon-box icon-box-bg-green">
+            <i class="fa-solid fa-circle-check"></i>
+          </div>
+
+          <h4 class="title-4">Test</h4>
+
+          <p class="text-1 text-color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

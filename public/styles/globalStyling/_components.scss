@@ -1,9 +1,9 @@
-// Logo
+// ---- Logo
 .logo {
   width: 10rem;
 }
 
-// Buttons
+// ---- Buttons
 .button-style {
   background: $medium-slate-blue;
   color: $white;
@@ -29,21 +29,97 @@
   padding: 1.2rem 1.5rem;
 }
 
-// Icons
+// ---- Icons
 .fa-chevron-down {
   color: $white;
   margin-left: 1rem;
 }
 
-// Title
+.icon-box {
+  width: 5rem;
+  height: 5rem;
+  @include flex-justify__c-items__c();
+  color: $white;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+.icon-box-bg-tomato {
+  background: $tomato;
+}
+
+.icon-box-bg-celtic-blue {
+  background: $celtic-blue;
+}
+
+.icon-box-bg-yello {
+  background: $maximum-yellow-red;
+}
+
+.icon-box-bg-green {
+  background: $dark-turquoise;
+}
+
+// ---- Title
 .title-1 {
   font: {
     size: 6rem;
+    weight: 600;
+  }
+}
+
+.title-2 {
+  font: {
+    size: 4rem;
+    weight: 800;
+  }
+}
+
+.title-4 {
+  font: {
+    size: 2rem;
     weight: 500;
   }
 }
 
-// Text and Paragraph
-.text-2 {
+.title-4-big {
+  font-size: 1.7rem;
+}
+
+// ---- Text and Paragraph
+.text-1 {
+  font-size: 1.2rem;
+}
+
+// .text-2 {
+// }
+
+.text-color-1 {
   color: $cadet-blue-crayola;
+}
+
+// ---- Cards
+// Feature Card
+.feature-card {
+  width: 21rem;
+  height: 22rem;
+  @include flex-column-justify__c-items__c();
+  padding: 3rem 2.5rem;
+  margin-right: 2rem;
+  border-radius: 5px;
+  text-align: center;
+  
+  h4 {
+    margin-top: 2rem;
+  }
+  
+  p {
+    margin-top: 1.5rem;
+  }
+  
+  &:hover {
+    background: $magnolia;
+    box-shadow: 25px 25px 35px 15px rgba(128, 128, 128, 0.096);
+    transition: 0.2s;
+  }
 }
