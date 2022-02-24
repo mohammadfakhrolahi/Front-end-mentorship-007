@@ -30,6 +30,11 @@ li {
   letter-spacing: 0.02rem;
 }
 
+::selection {
+  color: #fff;
+  background: #9174fa;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -110,6 +115,10 @@ hr {
   background: #13b237ff;
 }
 
+.text-color-1 {
+  color: #78818a;
+}
+
 .logo {
   width: 10rem;
 }
@@ -179,9 +188,12 @@ hr {
   font-weight: 800;
 }
 
+.title-3 {
+  font-size: 3rem;
+}
+
 .title-4 {
   font-size: 2rem;
-  font-weight: 500;
 }
 
 .title-5 {
@@ -205,8 +217,12 @@ hr {
   font-size: 1.6rem;
 }
 
-.text-color-1 {
-  color: #78818a;
+.weight-500 {
+  font-weight: 500;
+}
+
+.weight-600 {
+  font-weight: 600;
 }
 
 .feature-card {
@@ -233,8 +249,35 @@ hr {
   transition: 0.2s;
 }
 
+.Rectangle-card {
+  background: #fff;
+  padding: 2rem 3rem;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 25px 25px 35px 15px rgba(190, 190, 190, 0.171);
+}
+.Rectangle-card .Rectangle-card__info {
+  margin-top: 2rem;
+}
+
 .image-cotainer {
   width: 22rem;
+}
+
+.image-cotainer-s {
+  width: 60rem;
+}
+
+.border-left-green {
+  border-left: 4px solid #13b237ff;
+}
+
+.border-left-tomato {
+  border-left: 4px solid #fa6444ff;
+}
+
+.border-left-celtic {
+  border-left: 4px solid #0f69c9ff;
 }
 
 .main-header {

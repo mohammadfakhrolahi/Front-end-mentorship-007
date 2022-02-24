@@ -32,6 +32,11 @@ li {
   letter-spacing: 0.02rem;
 }
 
+::selection {
+  color: #fff;
+  background: #9174fa;
+}
+
 // Reset CSS 
 
 html {

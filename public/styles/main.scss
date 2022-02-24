@@ -4,9 +4,15 @@
 @import './globalStyling/components';
 
 // ---- Section style
-.section-style {
+.section-style-magnolia {
   @include flex-justify__c-items__c();
   background: $magnolia;
+  padding: 0 10rem;
+}
+
+.section-style-white {
+  @include flex-justify__c-items__c();
+  background: $white;
   padding: 0 10rem;
 }
 
@@ -79,7 +85,7 @@
 
 // ---- Mobile App section
 .section-mobile-app {
-  margin-top: 15rem;
+  margin-top: 18rem;
 
   .section-mobile-app__container {
     width: 100%;
@@ -117,5 +123,29 @@
     h5 {
       margin-top: 1rem;
     }
+  }
+}
+
+// ---- Offers Section ----
+.section-offers {
+  margin-top: 20rem;
+  @include flex-column-justify__c-items__c();
+}
+
+// Header
+.offer-title {
+  margin-top: 4rem;
+}
+
+.section-offers__content {
+  margin: 4rem;
+  @include flex-justify__c-items__c();
+}
+
+.offers-container {
+  margin-left: 10rem;
+
+  .Rectangle-card {
+    width: 80%;
   }
 }
