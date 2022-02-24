@@ -3,6 +3,27 @@
 @import './globalStyling/variables';
 @import './globalStyling/components';
 
+// ---- Section style
+.section-style {
+  @include flex-justify__c-items__c();
+  background: $magnolia;
+  padding: 0 10rem;
+}
+
+.section-container {
+  width: 100%;
+  @include flex-justify__s-items__c();
+  background: $white;
+  padding: 2rem 1rem;
+}
+
+.content-container {
+  height: 100%;
+  @include flex-column-justify__s-items__s();
+  background: $white;
+  padding: 1rem 4rem;
+}
+
 // ---- Hero section
 .section-hero {
   width: 100%;
@@ -41,18 +62,11 @@
 }
 
 // ---- Our Process Section
-.section-our-process {
-  @include flex-justify__c-items__c();
-  background: $magnolia;
-  padding: 0 10rem;
-}
-
-.section-container {
-  width: 100%;
-  @include flex-justify__s-items__c();
-  background: $white;
-  padding: 5rem 1rem;
-}
+// .section-our-process {
+  // @include flex-justify__c-items__c();
+  // background: $magnolia;
+  // padding: 0 10rem;
+// }
 
 // Our Process
 .section-our-process__title {
@@ -63,3 +77,45 @@
   }
 }
 
+// ---- Mobile App section
+.section-mobile-app {
+  margin-top: 15rem;
+
+  .section-mobile-app__container {
+    width: 100%;
+    height: 100%;
+    @include flex-justify__c-items__c();
+  }
+}
+
+.mobile-app-image {
+  position: absolute;
+  margin-right: 76rem;
+}
+
+.mobile-app-content {
+  width: 50rem;
+  margin-left: 5rem;
+}
+
+.mobile-app-title {
+  margin-top: 2rem;
+}
+
+.mobile-app-info {
+  margin-top: 2rem;
+}
+
+.mobile-app-features {
+  width: 60%;
+  @include flex-justify__sb-items__c();
+  margin-top: 4rem;
+
+  .mobile-app-feature {
+    @include flex-column-justify__c-items__c();
+
+    h5 {
+      margin-top: 1rem;
+    }
+  }
+}

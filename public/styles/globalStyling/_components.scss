@@ -1,9 +1,9 @@
-// ---- Logo
+// ---- Logo ----
 .logo {
   width: 10rem;
 }
 
-// ---- Buttons
+// ---- Buttons ----
 .button-style {
   background: $medium-slate-blue;
   color: $white;
@@ -29,13 +29,13 @@
   padding: 1.2rem 1.5rem;
 }
 
-// ---- Icons
+// ---- Icons ----
 .fa-chevron-down {
   color: $white;
   margin-left: 1rem;
 }
 
-.icon-box {
+.icon-box-l {
   width: 5rem;
   height: 5rem;
   @include flex-justify__c-items__c();
@@ -44,23 +44,18 @@
   font-size: 2rem;
 }
 
-.icon-box-bg-tomato {
-  background: $tomato;
+.icon-box-m {
+  width: 4rem;
+  height: 4rem;
+  @include flex-justify__c-items__c();
+  color: $white;
+  border-radius: 8px;
+  font-size: 1.6rem;
 }
 
-.icon-box-bg-celtic-blue {
-  background: $celtic-blue;
-}
 
-.icon-box-bg-yello {
-  background: $maximum-yellow-red;
-}
 
-.icon-box-bg-green {
-  background: $dark-turquoise;
-}
-
-// ---- Title
+// ---- Title ----
 .title-1 {
   font: {
     size: 6rem;
@@ -68,7 +63,14 @@
   }
 }
 
-.title-2 {
+.title-2-700 {
+  font: {
+    size: 4rem;
+    weight: 700;
+  }
+}
+
+.title-2-800 {
   font: {
     size: 4rem;
     weight: 800;
@@ -82,23 +84,36 @@
   }
 }
 
+.title-5 {
+  font: {
+    size: 1.6rem;
+    weight: 500;
+  }
+}
+
 .title-4-big {
   font-size: 1.7rem;
 }
 
-// ---- Text and Paragraph
+// ---- Text and Paragraph ----
 .text-1 {
   font-size: 1.2rem;
 }
 
-// .text-2 {
-// }
+.text-2 {
+  font-size: 1.4rem;
+}
 
+.text-3 {
+  font-size: 1.6rem;
+}
+
+// ---- Text Color
 .text-color-1 {
   color: $cadet-blue-crayola;
 }
 
-// ---- Cards
+// ---- Cards ----
 // Feature Card
 .feature-card {
   width: 21rem;
@@ -119,7 +134,12 @@
   
   &:hover {
     background: $magnolia;
-    box-shadow: 25px 25px 35px 15px rgba(128, 128, 128, 0.096);
+    box-shadow: 25px 25px 35px 15px rgba(190, 190, 190, 0.096);
     transition: 0.2s;
   }
+}
+
+// ---- Image ----
+.image-cotainer {
+  width: 22rem;
 }

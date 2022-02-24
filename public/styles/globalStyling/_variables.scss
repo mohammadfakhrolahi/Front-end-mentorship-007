@@ -17,11 +17,24 @@
   align-items: center;
 }
 
+@mixin flex-justify__sb-items__c {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 // Column
 @mixin flex-column-justify__c-items__s {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
+}
+
+@mixin flex-column-justify__s-items__s {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 
