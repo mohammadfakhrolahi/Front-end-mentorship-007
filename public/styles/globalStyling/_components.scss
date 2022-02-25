@@ -122,6 +122,7 @@
   width: 21rem;
   height: 22rem;
   @include flex-column-justify__c-items__c();
+  background: $magnolia;
   padding: 3rem 2.5rem;
   margin-right: 2rem;
   border-radius: 5px;
@@ -136,7 +137,7 @@
   }
   
   &:hover {
-    background: $magnolia;
+    background: $Seashell;
     box-shadow: 25px 25px 35px 15px rgba(190, 190, 190, 0.096);
     transition: 0.2s;
   }
@@ -160,6 +161,10 @@
   width: 22rem;
 }
 
+.image-cotainer-m {
+  width: 50rem;
+}
+
 .image-cotainer-s {
   width: 60rem;
 }
@@ -175,4 +180,29 @@
 
 .border-left-celtic {
   border-left: 4px solid $celtic-blue;
+}
+
+// ---- Scrollbar for Google Chrome ----
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: $medium-slate-blue1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $medium-slate-blue;
+  border-radius: 5px;
+}
+
+// ::-webkit-scrollbar-button {
+//   background-color: $medium-slate-blue5;
+//   border-radius: 2px;
+// }
+
+// ---- Scrollbar for FireFox ----
+:root {
+  scrollbar-color: $medium-slate-blue $medium-slate-blue2 !important;
+  scrollbar-width: thin !important;
 }

@@ -107,6 +107,10 @@ hr {
   background: #ffbb41ff;
 }
 
+.icon-box-bg-r-blue {
+  background: #5ed3f3;
+}
+
 .icon-box-bg-green {
   background: #44d4d7ff;
 }
@@ -232,6 +236,7 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #f4f4ffff;
   padding: 3rem 2.5rem;
   margin-right: 2rem;
   border-radius: 5px;
@@ -244,7 +249,7 @@ hr {
   margin-top: 1.5rem;
 }
 .feature-card:hover {
-  background: #f4f4ffff;
+  background: #fff4ef;
   box-shadow: 25px 25px 35px 15px rgba(190, 190, 190, 0.096);
   transition: 0.2s;
 }
@@ -264,6 +269,10 @@ hr {
   width: 22rem;
 }
 
+.image-cotainer-m {
+  width: 50rem;
+}
+
 .image-cotainer-s {
   width: 60rem;
 }
@@ -278,6 +287,24 @@ hr {
 
 .border-left-celtic {
   border-left: 4px solid #0f69c9ff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #b19df8;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7854f7ff;
+  border-radius: 5px;
+}
+
+:root {
+  scrollbar-color: #7854f7ff #7754f728 !important;
+  scrollbar-width: thin !important;
 }
 
 .section-style-magnolia {
@@ -360,10 +387,10 @@ hr {
   margin-top: 1.5rem;
 }
 
-.section-mobile-app {
+.section-features {
   margin-top: 18rem;
 }
-.section-mobile-app .section-mobile-app__container {
+.section-features .section-features__container {
   width: 100%;
   height: 100%;
   display: flex;
@@ -376,16 +403,20 @@ hr {
   margin-right: 76rem;
 }
 
-.mobile-app-content {
+.laptop-image {
+  margin-left: 10rem;
+}
+
+.features-content {
   width: 50rem;
   margin-left: 5rem;
 }
 
-.mobile-app-title {
+.features-title {
   margin-top: 2rem;
 }
 
-.mobile-app-info {
+.features-info {
   margin-top: 2rem;
 }
 
@@ -407,7 +438,7 @@ hr {
 }
 
 .section-offers {
-  margin-top: 20rem;
+  margin-top: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: center;

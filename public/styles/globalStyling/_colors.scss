@@ -1,4 +1,5 @@
 /* SCSS HEX */
+$medium-slate-blue1: rgb(177, 157, 248);
 $medium-slate-blue: #7854f7ff;
 $medium-slate-blue2: #7754f728;
 $medium-slate-blue3: rgb(108, 76, 221);
@@ -6,8 +7,10 @@ $medium-slate-blue4: rgb(97, 68, 202);
 $iris: #4756dfff;
 $celtic-blue: #0f69c9ff;
 $steel-blue: #3f79aeff;
+$r-blue: #5ed3f3;
 $magnolia: #f4f4ffff;
 $tomato: #fa6444ff;
+$Seashell: #fff4ef;
 $maximum-yellow-red: #ffbb41ff;
 $fulvous: #de8300ff;
 $green-pantone: #13b237ff;
@@ -16,7 +19,7 @@ $white: #fff;
 $black: #000;
 $cadet-blue-crayola: #78818a;
 
-// Background Color
+// ---- Background Color
 .icon-box-bg-tomato {
   background: $tomato;
 }
@@ -27,6 +30,10 @@ $cadet-blue-crayola: #78818a;
 
 .icon-box-bg-yello {
   background: $maximum-yellow-red;
+}
+
+.icon-box-bg-r-blue {
+  background: $r-blue;
 }
 
 .icon-box-bg-green {
