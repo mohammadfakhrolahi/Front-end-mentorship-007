@@ -1,4 +1,4 @@
-/* SCSS HEX */
+// SCSS HEX / RGB
 $medium-slate-blue1: rgb(177, 157, 248);
 $medium-slate-blue: #7854f7ff;
 $medium-slate-blue2: #7754f728;
@@ -24,7 +24,7 @@ $red-dark: #dd2238;
 $red-dark2: #bb1e30;
 $transparent: #ffffff00;
 
-// ---- Background Color
+// ---- Background Color ----
 .icon-box-bg-tomato {
   background: $tomato;
 }
@@ -48,7 +48,7 @@ $transparent: #ffffff00;
   background: $green-pantone;
 }
 
-// ---- Text Color
+// ---- Text Color ----
 .text-color-1 {
   color: $cadet-blue-crayola;
 }
