@@ -17,6 +17,12 @@
   align-items: center;
 }
 
+@mixin flex-justify__s-items__s {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
 @mixin flex-justify__sb-items__c {
   display: flex;
   justify-content: space-between;

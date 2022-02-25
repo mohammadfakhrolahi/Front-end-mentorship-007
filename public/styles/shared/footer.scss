@@ -1,1 +1,46 @@
-footer
+// Import Sass Files
+@import '../globalStyling/reset';
+@import '../globalStyling/colors';
+@import '../globalStyling/variables';
+@import '../globalStyling/components';
+
+// Footer
+.footer {
+  @include flex-justify__s-items__s();
+  background: $Seashell;
+  margin-top: 5rem;
+  padding: 5rem 10rem;
+}
+
+.company-info-container {
+  width: 25%;
+  margin-right: 10rem;
+
+  p {
+    margin-top: 2rem;
+  }
+
+  .social-icon-container {
+    @include flex-justify__s-items__c();
+    margin-top: 2rem;
+
+    .social-icon {
+      margin-right: 0.9rem;
+    }
+  }
+}
+
+// Navigation
+.footer-nav-container {
+  @include flex-justify__s-items__s();
+}
+
+.footer-nav-section {
+  margin-right: 10rem;
+
+  .footer-nav,
+  .footer-nav__item {
+    margin-top: 2rem;
+    
+  }
+}

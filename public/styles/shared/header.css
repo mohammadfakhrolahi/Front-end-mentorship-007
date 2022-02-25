@@ -152,18 +152,20 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #FA243C;
-  color: #fff;
+  background: #fff;
+  color: #FA243C;
+  border: 2px solid #FA243C;
   border-radius: 50%;
   font-size: 2rem;
   cursor: pointer;
   transition: 0.2s;
 }
 .close-btn:hover {
-  background: #dd2238;
+  background: #FA243C;
+  color: #fff;
 }
 .close-btn:active {
-  background: #bb1e30;
+  background: #dd2238;
 }
 
 .button-m {
@@ -172,6 +174,17 @@ hr {
 
 .button-l {
   padding: 1.2rem 1.5rem;
+}
+
+.input-box {
+  background: #ffffff00;
+  border: 2px solid #656c74;
+  border-radius: 10px;
+  padding: 3px;
+}
+.input-box input {
+  background: #ffffff00;
+  padding: 0 1rem;
 }
 
 .fa-chevron-down {
@@ -201,6 +214,26 @@ hr {
   font-size: 1.6rem;
 }
 
+.icon-box-s {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff00;
+  color: #fa6444ff;
+  border: 1px solid #fa6444ff;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.icon-box-s:hover {
+  background: #fa6444ff;
+  color: #fff;
+  box-shadow: 0 10px 15px 5px rgba(190, 190, 190, 0.384);
+}
+
 .title-1 {
   font-size: 6rem;
   font-weight: 600;
@@ -226,7 +259,6 @@ hr {
 
 .title-5 {
   font-size: 1.6rem;
-  font-weight: 500;
 }
 
 .title-4-big {
@@ -245,12 +277,20 @@ hr {
   font-size: 1.6rem;
 }
 
+.text-decoration:hover {
+  text-decoration: underline solid #656c74 2px;
+}
+
 .weight-500 {
   font-weight: 500;
 }
 
 .weight-600 {
   font-weight: 600;
+}
+
+.line-height-1-5 {
+  line-height: 1.5;
 }
 
 .feature-card {

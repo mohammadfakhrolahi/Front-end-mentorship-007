@@ -1,8 +1,10 @@
+// Import Sass Files
 @import '../globalStyling/reset';
 @import '../globalStyling/colors';
 @import '../globalStyling/variables';
 @import '../globalStyling/components';
 
+// Header
 .main-header {
   @include flex-justify__b-items__c();
   background: $white;
