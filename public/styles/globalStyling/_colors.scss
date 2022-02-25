@@ -18,6 +18,10 @@ $dark-turquoise: #44d4d7ff;
 $white: #fff;
 $black: #000;
 $cadet-blue-crayola: #78818a;
+$cadet: #656c74;
+$red: #FA243C;
+$red-dark: #dd2238;
+$red-dark2: #bb1e30;
 
 // ---- Background Color
 .icon-box-bg-tomato {
@@ -46,4 +50,8 @@ $cadet-blue-crayola: #78818a;
 // ---- Text Color
 .text-color-1 {
   color: $cadet-blue-crayola;
+}
+
+.text-color-2 {
+  color: $cadet;
 }

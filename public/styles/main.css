@@ -123,6 +123,10 @@ hr {
   color: #78818a;
 }
 
+.text-color-2 {
+  color: #656c74;
+}
+
 .logo {
   width: 10rem;
 }
@@ -140,6 +144,26 @@ hr {
 }
 .button-style:active {
   background: #6144ca;
+}
+
+.close-btn {
+  width: 2.6rem;
+  height: 2.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FA243C;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.close-btn:hover {
+  background: #dd2238;
+}
+.close-btn:active {
+  background: #bb1e30;
 }
 
 .button-m {
@@ -265,15 +289,49 @@ hr {
   margin-top: 2rem;
 }
 
+.sign-up-modal {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0 25px 35px 15px rgba(190, 190, 190, 0.384);
+  position: relative;
+  transform: translate3d(0, 0, 0) scale(1) !important;
+  opacity: 1 !important;
+}
+.sign-up-modal .close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  z-index: 2;
+}
+.sign-up-modal .sign-up-content {
+  margin-top: 2rem;
+}
+.sign-up-modal .sign-up-content h3 {
+  margin-top: 2rem;
+}
+.sign-up-modal .sign-up-content p {
+  margin-top: 2rem;
+}
+.sign-up-modal .sign-up-content #sign-up-btn {
+  margin-top: 2rem;
+}
+
 .image-cotainer {
   width: 22rem;
+}
+
+.image-cotainer-s {
+  width: 40rem;
 }
 
 .image-cotainer-m {
   width: 50rem;
 }
 
-.image-cotainer-s {
+.image-cotainer-l {
   width: 60rem;
 }
 
@@ -461,6 +519,10 @@ hr {
 }
 .offers-container .Rectangle-card {
   width: 80%;
+}
+
+.section-style-white .sign-up-modal {
+  margin-top: 10rem;
 }
 
 /*# sourceMappingURL=main.css.map */
