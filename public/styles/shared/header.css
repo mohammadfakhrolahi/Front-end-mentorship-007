@@ -181,6 +181,9 @@ hr {
   border-radius: 10px;
   padding: 3px;
 }
+.input-box:focus-within {
+  border: 2px solid #7854f7ff;
+}
 .input-box input {
   background: #ffffff00;
   padding: 0 1rem;

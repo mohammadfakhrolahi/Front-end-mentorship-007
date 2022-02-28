@@ -181,6 +181,9 @@ hr {
   border-radius: 10px;
   padding: 3px;
 }
+.input-box:focus-within {
+  border: 2px solid #7854f7ff;
+}
 .input-box input {
   background: #ffffff00;
   padding: 0 1rem;
@@ -484,6 +487,15 @@ hr {
   margin-top: 1.5rem;
 }
 
+.feature-card {
+  transform: translateY(0);
+  transition: 0.5s;
+}
+.feature-card:hover {
+  transform: translateY(-2rem);
+  transition: 0.5s;
+}
+
 .section-features {
   margin-top: 18rem;
 }
@@ -558,6 +570,12 @@ hr {
 }
 .offers-container .Rectangle-card {
   width: 80%;
+  transform: translateY(0);
+  transition: 0.5s;
+}
+.offers-container .Rectangle-card:hover {
+  transform: translateX(-2rem);
+  transition: 0.5s;
 }
 
 .section-style-white .sign-up-modal {

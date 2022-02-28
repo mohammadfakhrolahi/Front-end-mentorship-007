@@ -83,6 +83,11 @@
   }
 }
 
+.feature-card {
+  @include transform-y();
+  @include transform-back();
+}
+
 // ---- Features / Mobile App Section ----
 .section-features {
   margin-top: 18rem;
@@ -151,6 +156,8 @@
 
   .Rectangle-card {
     width: 80%;
+    @include transform-x();
+    @include transform-back();
   }
 }
 

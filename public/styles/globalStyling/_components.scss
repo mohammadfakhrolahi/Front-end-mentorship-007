@@ -58,6 +58,10 @@
   border-radius: 10px;
   padding: 3px;
 
+  &:focus-within {
+    border: 2px solid $medium-slate-blue;
+  }
+
   input {
     background: $transparent;
     padding: 0 1rem;

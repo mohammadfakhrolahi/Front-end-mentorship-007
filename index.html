@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="icon" href="./public/images/pj-logo4.png">
+    <link rel="stylesheet" href="./public/styles/main.css"/>
+    <link rel="stylesheet" href="./public/styles/shared/header.css"/>
+    <link rel="stylesheet" href="./public/styles/shared/footer.css">
+    <!-- Font Awesome Icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -20,9 +24,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" 
       integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" 
       crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="./public/styles/main.css"/>
-    <link rel="stylesheet" href="./public/styles/shared/header.css"/>
-    <link rel="stylesheet" href="./public/styles/shared/footer.css">
     <title>PJ Studio</title>
   </head>
   <body>
@@ -49,214 +50,218 @@
       </nav>
 
       <div>
-        <button id="request-demo-btn" class="button-m button-style">
+        <a role="button" id="request-demo-btn" class="button-m button-style">
           Request a demo
-        </button>
+        </a>
       </div>
     </header>
 
-    <section class="section-hero">
-      <div id="hero-content">
-        <h1 class="title-1 hero-title">Web & Mobile Design Development</h1>
-
-        <p class="text-2 text-color-1 hero-text">Helps you to organize your income and expenses</p>
-
-        <div id="hero-btn-container">
-          <button class="button-l button-style">
-            Try free demo<i class="fa-solid fa-chevron-down"></i>
+    <main>
+      <section class="section-hero">
+        <div id="hero-content">
+          <h1 class="title-1 hero-title">Web & Mobile Design Development</h1>
+  
+          <p class="text-2 text-color-1 hero-text">Helps you to organize your income and expenses</p>
+  
+          <div id="hero-btn-container">
+            <button class="button-l button-style">
+              Try free demo<i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <span class="text-2 text-color-1" id="hero-btn-container__text">- Web, iOS and Android</span>
+          </div>
+        </div>
+  
+        <div id="hero-image-container">
+          <img src="./public/images/hero-700.jpg" loading="lazy" id="hero-image" alt="Hero image"/>
+        </div>
+      </section>
+  
+      <section class="section-our-process section-style-magnolia">
+        <div class="section-container">
+          <div class="section-our-process__title">
+            <h2 class="title-2-800">Our Process</h2>
+            <p class="text-color-1">Helps you to organize your income and expenses</p>
+          </div>
+  
+          <div class="feature-card">
+            <div class="icon-box-l icon-box-bg-yello">
+              <i class="fa-solid fa-door-open"></i>
+            </div>
+  
+            <h4 class="title-4">Daily Standup</h4>
+  
+            <p class="text-1 text-color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+  
+          <div class="feature-card">
+            <div class="icon-box-l icon-box-bg-celtic-blue">
+              <i class="fa-solid fa-shield"></i>
+            </div>
+  
+            <h4 class="title-4 title-4-big">Weekly Syn, Meeting</h4>
+  
+            <p class="text-1 text-color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+  
+          <div class="feature-card">
+            <div class="icon-box-l icon-box-bg-tomato">
+              <i class="fa-solid fa-user-check"></i>
+            </div>
+  
+            <h4 class="title-4">User Testing</h4>
+  
+            <p class="text-1 text-color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+  
+          <div class="feature-card">
+            <div class="icon-box-l icon-box-bg-green">
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+  
+            <h4 class="title-4">Test</h4>
+  
+            <p class="text-1 text-color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+        </div>
+      </section>
+  
+      <section class="section-features section-style-magnolia">
+        <div class="section-features__container">
+          <div class="image-cotainer mobile-app-image">
+            <img src="./public/images/iphone-280.png" loading="lazy" alt="Mobile app image">
+          </div>
+  
+          <div class="features-content content-container">
+            <p class="text-3 text-color-1">FEATURES</p>
+  
+            <h2 class="title-2-700 features-title">Mobile App</h2>
+  
+            <p class="text-2 text-color-1 features-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+              quis nostrud exercitation ullamco.
+            </p>
+  
+            <div class="mobile-app-features">
+              <div class="mobile-app-feature">
+                <div class="icon-box-m icon-box-bg-greenp">
+                  <i class="fa-solid fa-compass-drafting"></i>
+                </div>
+  
+                <h5 class="title-5">UI/UX File</h5>
+              </div>
+  
+              <div class="mobile-app-feature">
+                <div class="icon-box-m icon-box-bg-green">
+                  <i class="fa-solid fa-file-lines"></i>
+                </div>
+  
+                <h5 class="title-5">Documents</h5>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+        
+      </section>
+  
+      <section class="section-offers section-style-white">
+        <h3 class="offer-title title-3 weight-600">Customize Offers</h3>
+  
+        <div class="section-offers__content">
+          <div class="image-cotainer-l">
+            <img src="./public/images/offer-570.jpg" loading="lazy" alt="">
+          </div>
+  
+          <div class="offers-container">
+            <div class="Rectangle-card border-left-tomato">
+              <h4 class="offer__title title-4 weight-500">Custom CMS</h4>
+  
+              <p class="Rectangle-card__info text-2 text-color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore.
+              </p>
+            </div>
+  
+            <div class="Rectangle-card border-left-celtic">
+              <h4 class="offer__title title-4 weight-500">Payment Processing</h4>
+  
+              <p class="Rectangle-card__info text-2 text-color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore.
+              </p>
+            </div>
+  
+            <div class="Rectangle-card border-left-green">
+              <h4 class="offer__title title-4 weight-500">App Store Submission</h4>
+  
+              <p class="Rectangle-card__info text-2 text-color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section class="section-features section-style-magnolia">
+        <div class="section-features__container">
+          <div class="features-content content-container">
+            <p class="text-3 text-color-1">FEATURES</p>
+  
+            <h2 class="title-2-700 features-title">Web Development</h2>
+  
+            <p class="text-2 text-color-1 features-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+              quis nostrud exercitation ullamco.
+            </p>
+  
+            <div class="mobile-app-features">
+              <div class="mobile-app-feature">
+                <div class="icon-box-m icon-box-bg-greenp">
+                  <i class="fa-solid fa-compass-drafting"></i>
+                </div>
+  
+                <h5 class="title-5">UI/UX Design</h5>
+              </div>
+  
+              <div class="mobile-app-feature">
+                <div class="icon-box-m icon-box-bg-r-blue">
+                  <i class="fa-brands fa-react"></i>
+                </div>
+  
+                <h5 class="title-5">React & Vue JS</h5>
+              </div>
+  
+            </div>
+          </div>
+  
+          <div class="image-cotainer-m laptop-image">
+            <img src="./public/images/laptop-550.png" loading="lazy" alt="Web Development image">
+          </div>
+        </div>
+        
+      </section>
+  
+      <section class="section-style-white">
+        <div class="sign-up-modal" id="sign-up-modal">
+          
+          <div class="sign-up-content">
+            <h3 class="title-3 weight-500">Sign up first</h3>
+            
+            <p class="text-2 text-color-2">There will be many benefits that you will get</p>
+            
+            <button class="button-style button-l" id="sign-up-btn">SIGN UP NOW</button>
+          </div>
+          
+          <div class="image-cotainer-s">
+            <img src="./public/images/SignUp-430.jpg" loading="lazy" alt="Sign up image">
+          </div>
+  
+          <button class="close-btn" id="close-btn-sign-up">
+            <i class="fa-solid fa-xmark"></i>
           </button>
-          <span class="text-2 text-color-1" id="hero-btn-container__text">- Web, iOS and Android</span>
         </div>
-      </div>
+      </section>
+    </main>
 
-      <div id="hero-image-container">
-        <img src="./public/images/hero-700.jpg" loading="lazy" id="hero-image" alt="Hero image"/>
-      </div>
-    </section>
-
-    <section class="section-our-process section-style-magnolia">
-      <div class="section-container">
-        <div class="section-our-process__title">
-          <h2 class="title-2-800">Our Process</h2>
-          <p class="text-color-1">Helps you to organize your income and expenses</p>
-        </div>
-
-        <div class="feature-card">
-          <div class="icon-box-l icon-box-bg-yello">
-            <i class="fa-solid fa-door-open"></i>
-          </div>
-
-          <h4 class="title-4">Daily Standup</h4>
-
-          <p class="text-1 text-color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        </div>
-
-        <div class="feature-card">
-          <div class="icon-box-l icon-box-bg-celtic-blue">
-            <i class="fa-solid fa-shield"></i>
-          </div>
-
-          <h4 class="title-4 title-4-big">Weekly Syn, Meeting</h4>
-
-          <p class="text-1 text-color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        </div>
-
-        <div class="feature-card">
-          <div class="icon-box-l icon-box-bg-tomato">
-            <i class="fa-solid fa-user-check"></i>
-          </div>
-
-          <h4 class="title-4">User Testing</h4>
-
-          <p class="text-1 text-color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        </div>
-
-        <div class="feature-card">
-          <div class="icon-box-l icon-box-bg-green">
-            <i class="fa-solid fa-circle-check"></i>
-          </div>
-
-          <h4 class="title-4">Test</h4>
-
-          <p class="text-1 text-color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-features section-style-magnolia">
-      <div class="section-features__container">
-        <div class="image-cotainer mobile-app-image">
-          <img src="./public/images/iphone-280.png" loading="lazy" alt="Mobile app image">
-        </div>
-
-        <div class="features-content content-container">
-          <p class="text-3 text-color-1">FEATURES</p>
-
-          <h2 class="title-2-700 features-title">Mobile App</h2>
-
-          <p class="text-2 text-color-1 features-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-            quis nostrud exercitation ullamco.
-          </p>
-
-          <div class="mobile-app-features">
-            <div class="mobile-app-feature">
-              <div class="icon-box-m icon-box-bg-greenp">
-                <i class="fa-solid fa-compass-drafting"></i>
-              </div>
-
-              <h5 class="title-5">UI/UX File</h5>
-            </div>
-
-            <div class="mobile-app-feature">
-              <div class="icon-box-m icon-box-bg-green">
-                <i class="fa-solid fa-file-lines"></i>
-              </div>
-
-              <h5 class="title-5">Documents</h5>
-            </div>
-
-          </div>
-        </div>
-      </div>
-      
-    </section>
-
-    <section class="section-offers section-style-white">
-      <h3 class="offer-title title-3 weight-600">Customize Offers</h3>
-
-      <div class="section-offers__content">
-        <div class="image-cotainer-l">
-          <img src="./public/images/offer-570.jpg" loading="lazy" alt="">
-        </div>
-
-        <div class="offers-container">
-          <div class="Rectangle-card border-left-tomato">
-            <h4 class="offer__title title-4 weight-500">Custom CMS</h4>
-
-            <p class="Rectangle-card__info text-2 text-color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore.
-            </p>
-          </div>
-
-          <div class="Rectangle-card border-left-celtic">
-            <h4 class="offer__title title-4 weight-500">Payment Processing</h4>
-
-            <p class="Rectangle-card__info text-2 text-color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore.
-            </p>
-          </div>
-
-          <div class="Rectangle-card border-left-green">
-            <h4 class="offer__title title-4 weight-500">App Store Submission</h4>
-
-            <p class="Rectangle-card__info text-2 text-color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-features section-style-magnolia">
-      <div class="section-features__container">
-        <div class="features-content content-container">
-          <p class="text-3 text-color-1">FEATURES</p>
-
-          <h2 class="title-2-700 features-title">Web Development</h2>
-
-          <p class="text-2 text-color-1 features-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-            quis nostrud exercitation ullamco.
-          </p>
-
-          <div class="mobile-app-features">
-            <div class="mobile-app-feature">
-              <div class="icon-box-m icon-box-bg-greenp">
-                <i class="fa-solid fa-compass-drafting"></i>
-              </div>
-
-              <h5 class="title-5">UI/UX Design</h5>
-            </div>
-
-            <div class="mobile-app-feature">
-              <div class="icon-box-m icon-box-bg-r-blue">
-                <i class="fa-brands fa-react"></i>
-              </div>
-
-              <h5 class="title-5">React & Vue JS</h5>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="image-cotainer-m laptop-image">
-          <img src="./public/images/laptop-550.png" loading="lazy" alt="Web Development image">
-        </div>
-      </div>
-      
-    </section>
-
-    <section class="section-style-white">
-      <div class="sign-up-modal" id="sign-up-modal">
-        
-        <div class="sign-up-content">
-          <h3 class="title-3 weight-500">Sign up first</h3>
-          
-          <p class="text-2 text-color-2">There will be many benefits that you will get</p>
-          
-          <button class="button-style button-l" id="sign-up-btn">SIGN UP NOW</button>
-        </div>
-        
-        <div class="image-cotainer-s">
-          <img src="./public/images/SignUp-430.jpg" loading="lazy" alt="Sign up image">
-        </div>
-
-        <button class="close-btn" id="close-btn-sign-up">
-          <i class="fa-solid fa-xmark"></i>
-        </button>
-      </div>
-    </section>
+    
 
     <footer class="footer">
       <div>
