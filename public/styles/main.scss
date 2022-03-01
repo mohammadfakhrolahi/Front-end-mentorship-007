@@ -100,8 +100,17 @@
 }
 
 .mobile-app-image {
-  position: absolute;
-  margin-right: 76rem;
+  // margin-right: 76rem;
+  position: relative;
+  transform: translate3d(0,0,0) scale(1)!important;
+  opacity: 1!important;
+  
+  img {
+    position: absolute;
+    top: -26rem;
+    left: 0;
+    z-index: 2;
+  }
 }
 
 .laptop-image {

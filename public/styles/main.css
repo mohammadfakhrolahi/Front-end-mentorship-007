@@ -362,7 +362,7 @@ hr {
 }
 
 .image-cotainer {
-  width: 22rem;
+  width: 42rem;
 }
 
 .image-cotainer-s {
@@ -508,8 +508,15 @@ hr {
 }
 
 .mobile-app-image {
+  position: relative;
+  transform: translate3d(0, 0, 0) scale(1) !important;
+  opacity: 1 !important;
+}
+.mobile-app-image img {
   position: absolute;
-  margin-right: 76rem;
+  top: -26rem;
+  left: 0;
+  z-index: 2;
 }
 
 .laptop-image {
