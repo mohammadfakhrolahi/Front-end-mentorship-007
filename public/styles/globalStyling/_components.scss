@@ -68,6 +68,14 @@
   }
 }
 
+@media (min-width: 70rem) {
+  .input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 // ---- Icons ----
 .fa-chevron-down {
   color: $white;

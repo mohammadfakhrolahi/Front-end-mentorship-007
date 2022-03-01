@@ -189,6 +189,13 @@ hr {
   padding: 0 1rem;
 }
 
+@media (min-width: 70rem) {
+  .input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .fa-chevron-down {
   color: #fff;
   margin-left: 1rem;
